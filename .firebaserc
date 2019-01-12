@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "dbook-messageboard",
+    "pfoverview": "pfoverview"
+  }
+}
