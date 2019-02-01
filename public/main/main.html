@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tonylee Portfolio 4 Main Projects -- webDev based in Seoul, Korea</title>
-    <link rel="stylesheet" href="../css/main.css">
-
-    	<!--[if lt IE 9]>
-		<script type="text/javascript" src="js/IE9.js"></script>
-	<![endif]-->
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- div.navigation>input#navi-toggle.navigation__checkbox[type="checkbox"]+label.navigation__button>span.navigation__icon^div.navigation__background+nav.navigation__nav>ul.navigation__list>li.navigation__list*5 -->
@@ -24,84 +20,18 @@
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#section1" class="navigation__link fullsection flatRed"><span>01</span>what to expect here</a></li>
-                    <li class="navigation__item"><a href="#section2" class="navigation__link fullsection flatGreen"><span>02</span>Four project cards</a></li>
-                    <li class="navigation__item"><a href="#section3" class="navigation__link fullsection flatYellow"><span>03</span>when, how, and why explained</a></li>
-                    <li class="navigation__item"><a href="#section4" class="navigation__link fullsection flatBlue"><span>04</span>My future goals</a></li>
-                    <li class="navigation__item"><a href="#section5" class="navigation__link fullsection flatOrangeDark"><span>05</span>Contact me now</a></li>
+                    <li class="navigation__item"><a href="#section-about" class="navigation__link"><span>01</span>what to expect here</a></li>
+                    <li class="navigation__item"><a href="#section-cards" class="navigation__link"><span>02</span>Four project cards</a></li>
+                    <li class="navigation__item"><a href="#section-cardsFlip" class="navigation__link"><span>03</span>when, how, and why explained</a></li>
+                    <li class="navigation__item"><a href="#section-goals" class="navigation__link"><span>04</span>My future goals</a></li>
+                    <li class="navigation__item"><a href="#section-contact" class="navigation__link"><span>05</span>Contact me now</a></li>
                     </ul>
             </nav>
         </div>
-
-        <div id="fullSectionWrap">
-
-            <!-- 첫번째 컨텐츠 영역시작 -->
-            <div id="section1" class="fullSection flatRed">
-                 <ul class="bxslider">
-                   <li><img src="http://placehold.it/2000x600&text=Image1" /></li>
-                   <li><img src="http://placehold.it/2000x600&text=Image2" /></li>
-                   <li><img src="http://placehold.it/2000x600&text=Image3" /></li>
-                 </ul>
-            </div>
-     
-     
-            <!-- 두번째 컨텐츠 영역시작 -->
-            <div id="section2" class="fullSection flatGreen">     
-                 두번째
-            </div>
-     
-     
-            <!-- 세번째 컨텐츠 영역시작 -->
-            <div id="section3" class="fullSection flatYellow">     
-                세번째
-            </div>
-     
-     
-            <!-- 네번째 컨텐츠 영역시작 -->
-            <div id="section4" class="fullSection flatBlue">     
-                네번째
-            </div>
-     
-     
-            <!-- 다섯번째 컨텐츠 영역시작 -->
-            <div id="section5" class="fullSection flatOrangeDark">   
-                다섯번째
-            </div>
-     
-         </div>
-     
-         <div data-toggle="tooltip" data-placement="top" title="Going Up?" id="sectionTop">	
-             <a href='#' style="display: block;padding:5px;">&#916;</a>
-         </div>
-     
-         <script src="js/jquery-1.10.1.min.js"></script>
-     
-         <!-- scrolld JS -->
-         <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
-         <script type="text/javascript" src="js/scrolld.js"></script>
-     
-         <!-- bxSlider JS -->
-         <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-         <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-     
-         <script type="text/javascript">
-             //메인 네비게이션 시작
-             $("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
-     
-             //메인 bxSlider Start
-             var slider1 = $('.bxslider');
-                 
-             slider1.bxSlider({
-                   maxSlides: 1,
-                   slideWidth: 2000,
-                   auto: true,
-                   autoDelay: '500', //속도지정
-                   autoDirection: 'next', //방향지정(next/prev)
-                   pager: false, //페이저 지정
-                   controls:false
-             });
-         </script>
-         <script src="js/defer.js"></script>
-     
+<section style="width: 100%; height: 1200px;" class="section-about" id="section-about"><a name="section-about" href=""></a></section>
+<section style="width: 100%; height: 1200px;" class="section-features"><h2><a name="section-cards" href="">2</a></h2></section>
+<section style="width: 100%; height: 1200px" class="section-tours" id="section-cardsFlip"><a href="">3</a></section>
+<section class="section-stories" id="section-goals"><a name="section-goals">4</a></section>
+<section style="width: 100%; height: 1200px" class="section-book" id="section-contact"><a name="section-book" href="">Contact 5</a></section>
 </body>
 </html>
