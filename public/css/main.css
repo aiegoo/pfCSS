@@ -27,5 +27,8 @@ html, body { height: 100%; }
 
 
 /* Wrap 영역 시작 */
-#fullSectionWrap{margin-top:60px;}
+/* #fullSectionWrap{margin-top:60px;} */
 
+/*lbbox*/
+.lbbox {width:1660px;  height: 100%; /* float: left;  */
+	background-size:cover; position:relative;}
